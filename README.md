@@ -38,7 +38,12 @@ Eine neue Version erfordert die Aktualisierung der Versionsangaben und von `#rel
 
 ## GitHub Pages und Review
 
-Website: https://jimechizu.github.io/processcapture-ai-download/
+Website: https://processcapture.gzeltwanger.de/
+
+Eigene Domain: `CNAME` enthält `processcapture.gzeltwanger.de`. Der DNS-CNAME
+zeigt direkt auf `jimechizu.github.io` (Nur DNS, kein Cloudflare-Proxy). HTTPS
+wird von GitHub Pages bereitgestellt. Relative Links funktionieren am Domain-Root;
+die Download-Knöpfe führen direkt zur öffentlichen EXE bei GitHub.
 
 Die Erstveröffentlichung nutzt den Branch `feature/public-website` am Root.
 Ein Pull Request nach `main` bleibt zur menschlichen Prüfung offen; kein Agent
