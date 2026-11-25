@@ -32,6 +32,8 @@ Lokal prüfen: `python3 -m http.server 8080 --bind 127.0.0.1`, dann `http://127.
 3. Impressum, Datenschutzerklärung und tatsächliche Hosting-/Spendenkonfiguration durch den Anbieter prüfen lassen. Keine verbindliche Rechtsberatung oder rechtliche Zertifizierung.
 4. Erst danach gesondert freigegeben veröffentlichen. Die Vorbereitung dieses Pakets führt keinen Push, Merge, Release oder Pages-Deploy aus.
 
+Die beiden Download-Knöpfe verlinken direkt auf die zum angezeigten Versionsstand passende EXE. „Alle Versionen“ führt separat zur öffentlichen Release-Seite. Bei jeder neuen Version müssen EXE-Links, Version und SHA256 gemeinsam aktualisiert werden.
+
 Eine neue Version erfordert die Aktualisierung der Versionsangaben und von `#release-checksum` in `index.html`. Download-Links müssen auf dem öffentlichen Verteilungs-Repository bleiben; keine privaten Ursprungslinks oder internen Dateien ergänzen.
 
 ## GitHub Pages und Review
